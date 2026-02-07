@@ -1,0 +1,264 @@
+/* 
+  Localizable.strings (Spanish)
+  RinkuApp
+  
+  Spanish translations for the Rinku AI app
+*/
+
+// MARK: - App General
+"app_name" = "Rinku AI";
+"app_tagline" = "Un compañero gentil para la memoria.";
+"app_description" = "Un compañero gentil para quienes viven con Alzheimer";
+"app_version" = "Rinku AI v1.0.0";
+
+// MARK: - Tab Bar
+"tab_home" = "Inicio";
+"tab_loved_ones" = "Seres Queridos";
+"tab_add" = "Agregar";
+"tab_recognize" = "Reconocer";
+"tab_profile" = "Perfil";
+
+// MARK: - Home View
+"home_info_card" = "Usa la cámara para reconocer a tus seres queridos y escuchar recordatorios gentiles sobre tu relación con ellos.";
+"home_loved_ones_button" = "Seres Queridos";
+"home_add_button" = "Agregar Ser Querido";
+"home_recognize_button" = "Reconocer";
+"home_getting_started" = "Primeros Pasos";
+"home_tip1_title" = "Agregar Seres Queridos";
+"home_tip1_description" = "Sube fotos y agrega detalles sobre las personas que quieres reconocer";
+"home_tip2_title" = "Usar Reconocimiento Facial";
+"home_tip2_description" = "Apunta tu cámara para identificar personas y recibir recordatorios útiles";
+"home_tip3_title" = "Mantente Conectado";
+"home_tip3_description" = "Ve el historial de reconocimiento y recordatorios en cualquier momento";
+
+// MARK: - Profile View
+"profile_title" = "Perfil";
+"profile_manage_account" = "Administra tu cuenta";
+"profile_guest_user" = "Usuario Invitado";
+"profile_sign_in_prompt" = "Inicia sesión para sincronizar tus datos";
+"profile_loved_ones_stat" = "Seres Queridos";
+"profile_today_stat" = "Hoy";
+"profile_synced" = "Sincronizado";
+"profile_local" = "Local";
+"profile_status" = "Estado";
+"profile_storage" = "Almacenamiento";
+
+// MARK: - Profile Sections
+"section_recent_activity" = "Actividad Reciente";
+"section_account" = "Cuenta";
+"section_family" = "Familia";
+"section_smart_glasses" = "Gafas Inteligentes";
+"section_settings" = "Configuración";
+"section_support" = "Soporte";
+
+// MARK: - Account Actions
+"account_sign_up" = "Registrarse";
+"account_sign_up_subtitle" = "Crea una cuenta para respaldar tus datos";
+"account_sign_in" = "Iniciar Sesión";
+"account_sign_in_subtitle" = "¿Ya tienes una cuenta?";
+"account_sign_out" = "Cerrar Sesión";
+"account_sign_out_confirm" = "¿Estás seguro de que quieres cerrar sesión? Tus datos permanecerán en este dispositivo.";
+
+// MARK: - Family
+"family_setup" = "Configurar Familia";
+"family_setup_subtitle" = "Comparte seres queridos con cuidadores";
+"family_member_count" = "%d miembro";
+"family_member_count_plural" = "%d miembros";
+
+// MARK: - Settings Items
+"settings_audio_reminders" = "Recordatorios de Audio";
+"settings_audio_enabled" = "Dice el nombre y el recordatorio";
+"settings_audio_disabled" = "Audio deshabilitado";
+"settings_notifications" = "Notificaciones";
+"settings_camera_access" = "Acceso a la Cámara";
+"settings_enabled" = "Habilitado";
+"settings_offline_cache" = "Caché Sin Conexión";
+"settings_faces_cached" = "%d rostros guardados";
+"settings_replay_tutorial" = "Repetir Tutorial";
+"settings_replay_subtitle" = "Ver las pantallas de bienvenida nuevamente";
+"settings_language" = "Idioma";
+"settings_language_subtitle" = "Elige tu idioma preferido";
+
+// MARK: - Support Items
+"support_privacy_policy" = "Política de Privacidad";
+"support_terms" = "Términos de Servicio";
+"support_help" = "Ayuda y Preguntas Frecuentes";
+"support_contact" = "Contactar Soporte";
+
+// MARK: - Smart Glasses
+"glasses_meta" = "Gafas Inteligentes Meta";
+"glasses_connected" = "Conectado";
+"glasses_connecting" = "Conectando...";
+"glasses_not_connected" = "No conectado";
+"glasses_sdk_not_installed" = "SDK no instalado";
+"glasses_connect" = "Conectar";
+
+// MARK: - Recognition
+"recognition_history_title" = "Historial de Reconocimiento";
+"recognition_no_history" = "Sin Historial de Reconocimiento";
+"recognition_no_history_subtitle" = "Tus reconocimientos recientes aparecerán aquí";
+"recognition_see_all" = "Ver Todo";
+"recognition_today" = "Hoy";
+"recognition_yesterday" = "Ayer";
+"recognition_this_week" = "Esta Semana";
+"recognition_times" = "%d veces";
+"recognition_last_seen" = "Última vez: %@";
+"recognition_summary" = "Resumen";
+"recognition_offline" = "SIN CONEXIÓN";
+"recognition_clear" = "Borrar Historial";
+"recognition_clear_confirm" = "¿Estás seguro de que quieres borrar todo el historial de reconocimiento? Esto no se puede deshacer.";
+"recognition_clear_all" = "Borrar Todo";
+
+// MARK: - Loved Ones
+"loved_ones_title" = "Seres Queridos";
+"loved_ones_count" = "%d personas agregadas";
+"loved_ones_search_placeholder" = "Buscar por nombre o relación";
+"loved_ones_no_matches" = "No se encontraron resultados para \"%@\"";
+"loved_ones_empty_title" = "Aún No Hay Seres Queridos";
+"loved_ones_empty_subtitle" = "Agrega tu primer ser querido para comenzar";
+"loved_ones_add_first" = "Agregar Tu Primer Ser Querido";
+"loved_ones_enrolled" = "Registrado";
+"loved_ones_not_enrolled" = "No Registrado";
+"loved_ones_photos" = "%d fotos";
+
+// MARK: - Add Loved One
+"add_loved_one_title" = "Agregar Ser Querido";
+"add_loved_one_subtitle" = "Agrega a alguien especial para reconocer";
+"add_loved_one_full_name" = "Nombre Completo";
+"add_loved_one_full_name_placeholder" = "ej., María García";
+"add_loved_one_familiar_name" = "Nombre Familiar (Opcional)";
+"add_loved_one_familiar_name_placeholder" = "ej., Mamá, Abuela";
+"add_loved_one_relationship" = "Relación";
+"add_loved_one_relationship_placeholder" = "ej., Madre, Amiga";
+"add_loved_one_memory_prompt" = "Recordatorio de Memoria (Opcional)";
+"add_loved_one_memory_prompt_placeholder" = "ej., Le encanta la jardinería y visita cada domingo";
+"add_loved_one_photos" = "Fotos";
+"add_loved_one_photo_count" = "%d foto(s)";
+"add_loved_one_add_photos" = "Agregar Fotos";
+"add_loved_one_add_more" = "Agregar Más Fotos";
+"add_loved_one_photo_tip" = "Agrega fotos claras de su rostro para un mejor reconocimiento. Varias fotos desde diferentes ángulos funcionan mejor.";
+"add_loved_one_save" = "Guardar Ser Querido";
+"add_loved_one_error_name" = "El nombre completo es requerido";
+"add_loved_one_error_relationship" = "La relación es requerida";
+"add_loved_one_error_photo" = "Se requiere al menos una foto";
+
+// MARK: - Loved One Detail
+"detail_edit" = "Editar";
+"detail_delete" = "Eliminar";
+"detail_delete_confirm" = "¿Estás seguro de que quieres eliminar a este ser querido? Esta acción no se puede deshacer.";
+"detail_enroll" = "Registrar para Reconocimiento";
+"detail_enrolled_badge" = "Registrado";
+"detail_memory_prompt" = "Recordatorio de Memoria";
+"detail_photos_section" = "Fotos";
+"detail_no_photos" = "Aún no hay fotos agregadas";
+
+// MARK: - Camera & Recognition View
+"camera_recognize_title" = "Reconocer";
+"camera_subtitle" = "Apunta la cámara hacia un rostro";
+"camera_point_camera" = "Apunta la cámara hacia alguien";
+"camera_scanning" = "Escaneando...";
+"camera_recognized" = "¡Reconocido!";
+"camera_not_recognized" = "No reconocido";
+"camera_try_again" = "Intentar de Nuevo";
+"camera_no_enrolled" = "No hay seres queridos registrados";
+"camera_enroll_first" = "Por favor agrega y registra seres queridos primero";
+"camera_who_is_this" = "¿Quién es esta persona?";
+"camera_add_photo" = "Agregar Foto a Ser Querido";
+"camera_scan_again" = "Escanear de Nuevo";
+"camera_auto_info" = "Apunta la cámara hacia un rostro - el reconocimiento es automático";
+"camera_aws_warning" = "Credenciales de AWS no configuradas";
+"camera_configure_aws" = "Configura AWS para habilitar el reconocimiento";
+"camera_recognizing" = "Reconociendo...";
+"camera_position_face" = "Posiciona el rostro en el marco";
+"camera_hold_still" = "Mantente quieto...";
+"camera_choose_person" = "Elige a quién registrar";
+"camera_no_loved_ones" = "Aún no hay seres queridos agregados";
+"camera_speaking" = "Hablando...";
+"camera_last_seen" = "Visto por última vez %@";
+"camera_switched_glasses" = "Cambiado a cámara de gafas";
+"camera_switched_phone" = "Cambiado a cámara del teléfono";
+"camera_connecting_glasses" = "Conectando a las gafas...";
+
+// MARK: - Audio Reminders (TTS)
+"tts_this_is" = "Esta persona es %@, tu %@.";
+"tts_memory_prompt" = "%@";
+
+// MARK: - Voice Recording
+"voice_recording_label" = "Grabación de Voz (Opcional)";
+"voice_recording_record" = "Grabar Mensaje de Voz";
+
+// MARK: - Voice Settings
+"settings_voice" = "Configuración de Voz";
+"settings_voice_subtitle" = "Personaliza cómo suenan los recordatorios";
+"voice_select" = "Voz";
+"voice_system_default" = "Predeterminado del Sistema";
+"voice_speed" = "Velocidad";
+"voice_pitch" = "Tono";
+"voice_preview" = "Probar Voz";
+"voice_preview_text" = "Hola, esta es una vista previa de cómo sonaré.";
+"speech_rate_slow" = "Lento";
+"speech_rate_normal" = "Normal";
+"speech_rate_fast" = "Rápido";
+"pitch_low" = "Bajo";
+"pitch_normal" = "Normal";
+"pitch_high" = "Alto";
+
+// MARK: - Permissions
+"permission_camera_title" = "Acceso a la Cámara";
+"permission_camera_description" = "Necesitamos acceso a la cámara para reconocer rostros";
+"permission_microphone_title" = "Acceso al Micrófono";
+"permission_microphone_description" = "Necesitamos acceso al micrófono para funciones de audio";
+"permission_grant" = "Permitir Acceso";
+"permission_denied" = "Permiso Denegado";
+"permission_go_to_settings" = "Ir a Configuración";
+
+// MARK: - Onboarding
+"onboarding_welcome" = "Bienvenido a Rinku AI";
+"onboarding_welcome_subtitle" = "Un compañero gentil para quienes tienen desafíos de memoria";
+"onboarding_how_it_works" = "Cómo Funciona";
+"onboarding_step1" = "Agrega a tus seres queridos con fotos";
+"onboarding_step2" = "Usa la cámara para reconocerlos";
+"onboarding_step3" = "Escucha recordatorios gentiles sobre tu relación";
+"onboarding_get_started" = "Comenzar";
+"onboarding_next" = "Siguiente";
+"onboarding_skip" = "Omitir";
+
+// MARK: - Auth View
+"auth_title" = "Iniciar Sesión";
+"auth_email" = "Correo Electrónico";
+"auth_password" = "Contraseña";
+"auth_sign_in" = "Iniciar Sesión";
+"auth_sign_up" = "Registrarse";
+"auth_forgot_password" = "¿Olvidaste tu Contraseña?";
+"auth_no_account" = "¿No tienes una cuenta?";
+"auth_have_account" = "¿Ya tienes una cuenta?";
+"auth_error" = "Error de Autenticación";
+
+// MARK: - Common Actions
+"action_cancel" = "Cancelar";
+"action_done" = "Listo";
+"action_save" = "Guardar";
+"action_delete" = "Eliminar";
+"action_edit" = "Editar";
+"action_close" = "Cerrar";
+"action_continue" = "Continuar";
+"action_retry" = "Reintentar";
+"action_confirm" = "Confirmar";
+
+// MARK: - Errors & Status
+"error_generic" = "Algo salió mal";
+"error_network" = "Error de red. Por favor intenta de nuevo.";
+"error_loading" = "Error al cargar datos";
+"status_loading" = "Cargando...";
+"status_saving" = "Guardando...";
+"status_syncing" = "Sincronizando...";
+
+// MARK: - Empty States
+"empty_no_data" = "No hay datos disponibles";
+"empty_add_first" = "Agrega tu primer elemento";
+
+// MARK: - Time
+"time_just_now" = "Ahora mismo";
+"time_minutes_ago" = "hace %d minutos";
+"time_hours_ago" = "hace %d horas";
+"time_days_ago" = "hace %d días";
