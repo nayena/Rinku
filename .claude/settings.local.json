@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(xargs ls:*)",
+      "Bash(grep -r \"SWIFT_STRICT_CONCURRENCY\\\\|SWIFT_VERSION\\\\|SwiftVersion\\\\|StrictConcurrency\" /Users/heidynaranjo/Downloads/RinkuAppTest-main/*.xcodeproj)"
+    ]
+  }
+}
